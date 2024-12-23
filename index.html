@@ -7,12 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="name">
+        <h1>한문 조 점수 계산기</h1>
+    </div>
     <div class="container">
         <!-- 전환 링크 -->
-        <div id="toggle-container">
-            <a href="#" id="toggle-link">감소로 바꾸기</a>
-            <p id="current-mode">현재 : 증가</p>
-        </div>
 
         <!-- 위쪽 3모둠 -->
         <div id="top-groups" class="groups-section">
@@ -24,6 +23,10 @@
             <div class="groups-container"></div>
         </div>
     </div>
+    <div id="toggle-container">
+            <a href="#" id="toggle-link">감소로 바꾸기</a>
+            <p id="current-mode">현재 : 증가</p>
+        </div>
     <script>
         let isIncreaseMode = true; // 현재 모드: true = 증가, false = 감소
 
